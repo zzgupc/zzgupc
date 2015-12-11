@@ -1,0 +1,13 @@
+PHP下载网址：
+www.apachefriends.org下载XAMPP；
+
+用eclipse写PHP，需要配置文件；点击help找到install Newsoftware
+点击add》》》kepler》》》program language》》》whatis alreadyinstall
+重启eclipse即可；
+然后新建PHP文件；
+
+浏览器输入localhost/文件名
+将eclipse的运行空间切换到xampp目录下可直接运行；
+
+
+
