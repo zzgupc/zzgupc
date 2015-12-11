@@ -1,0 +1,61 @@
+前端需要掌握：web前端开发技术，网站性能优化，SEO和服务器端的基础知识。
+HTML骨架，CSS皮肤，js动作；
+常见的前端组件：jQuery，bootstrap；
+常见开发工具：sublime；
+前端工程化：模块化：AMD requirejs，cmd；框架化：underscore，jQuery。bootstrip
+sassmisser；自动化：模板引擎；Grunt；
+如何学习前端：多动手，多读书，写博客；
+写博客：总结归纳知识点，把知识从点到线然后成知识面；
+英语！英语！英语！重要的事情说三遍。。。。
+用github搭建一个免费的博客！！！
+
+课时三：HTML5
+1.采用IDEA的集成开发环境，
+	快捷键：通过文件名打开文件ctrl+shift+N；
+		打开最近一个文件：Ctrl+E；
+		打开导航栏：Alt+home；
+2.声明：<!DOCTYPE>为了声明HTML的版本，HTML5的声明：<!DOCTYPE html>
+3.html的标签：
+	lang=“en”代表英文；meta charset 编码方式；head；body；
+	h1----h6;h1最大，有加粗效果；标签成对出现，又开始，有结束；
+	<p></p>定义一段文字；<a href></a>a标签；<img src=""></img>img 标签
+	元素是指开始标签到结束标签的所有代码；
+	换行<br/>;标签嵌套；align对齐方式；bgcolor背景颜色；
+	标签默认居左；background设置背景图片；bgcolor设置背景颜色；
+	target：可以设置在新的页面打开连接
+格式化：ctrl+alt+L;
+  html的样式：
+	外部样式表：<link rel="stylesheet" type="texy/css" href="mystyle.css">
+	内部样式表：<style type="text/css">
+			body{background-color:red}
+			p{margin-left:20px}
+			</style>
+	内联样式：<p style="color:red">
+	html链接：<a name="tips">hello</a>
+		  <a href="#tips">跳转到hello</a>
+4.html表格：
+	行tr，每个单元格是td，边框border；
+	不定义边框默认没边框；
+	表头：<tr>
+		<th>表头</th>
+		</tr>
+	<p>表格</p>
+	如果紧挨表格：<caption>重要表格</caption>
+	<tr>
+		<td>
+			<ul><li>纵向的</li>
+			</ul>
+		</td>
+	</tr>
+	table里面指定表格大小：cellpadding；
+	单元格之间间距cellspacing；
+	颜色：bgcolor；图片：background=“”；
+5.html列表：
+	<ol>有序列表；<ul type=“circle，squ”>无序列表；<li>列表项；<dl>列表；<dt>列表项；<dd>描述；
+
+6.块元素：<p></p>;<h1></h1>;
+	  <div></div>配合CSS样式使用；div设置一个ID，利用CSS样式中的
+	#divID{}；设置样式，如果是外联还需要引入link在head中；如果指定
+	div中的某一项，则可以为#divID p{};
+	<span>
+	
