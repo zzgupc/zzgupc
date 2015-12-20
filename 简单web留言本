@@ -1,0 +1,39 @@
+<html>    
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="js的文件名.js"></script>
+</head>
+<body>
+  <p id="msg"></p>
+  <textarea id="memo" cols="60" rows="10"></textarea><br/>
+  <input type="button" value="追加数据" onclick="saveStorage('memo')">
+  <input type="button" value="删除数据" onclick="clearStorage()">
+</body>
+</html>
+
+//创建js文件
+function saveStorage(id){
+  var data = document.getElementById(id).value;
+  var time =new Date().getTime();//获取时间
+  localStorage.setItem(time,date);
+  alert("数据已储存")
+}
+function loadStorage(id){
+  var result ="<table border='1'>";
+  for(var i=0;i<localStorage.length;i++){
+    var key =localStorage.key(i);
+    var value=localStorage.getItem(key);
+    var date=new Date();
+    date.setTime(key);
+    result +="<tr><td>"+value+"</td><td>"+date+"</td></tr>";
+  }
+  result +="</table>";
+  var target=document.getElementById(id);
+  target.innerHTML=result;
+}
+function clearStorage(){
+  localStorage.clear();
+  alert("数据已经删除")；
+  loadStorage('msg');
+}
